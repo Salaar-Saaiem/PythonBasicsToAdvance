@@ -1,0 +1,39 @@
+1. Write a program to print numbers from 1 to 10 using for loop.
+
+2. Write a program to print even numbers between 1 and 20 using for loop.
+
+3. Write a program to print odd numbers between 1 and 20 using for loop.
+
+4. Write a program to find the sum of first 10 natural numbers using for loop.
+
+5. Write a program to display multiplication table of a number using for loop.
+
+6. Write a program to print squares of numbers from 1 to 10.
+
+7. Write a program to print cubes of numbers from 1 to 10.
+
+8. Write a program to count total vowels in a string using for loop.
+
+9. Write a program to reverse a string using for loop.
+
+10. Write a program to calculate factorial of a number using for loop.
+
+11. Write a program to print Fibonacci series using for loop.
+
+12. Write a program to check whether a number is prime or not using for loop.
+
+13. Write a program to count digits in a number using for loop.
+
+14. Write a program to print all elements of a list using for loop.
+
+15. Write a program to find largest number in a list using for loop.
+
+16. Write a program to print star pattern using nested for loops.
+
+17. Write a program to print multiplication tables from 1 to 10.
+
+18. Write a program to find sum of all even numbers between 1 and 100.
+
+19. Write a program to print each character of a string separately.
+
+20. Write a program to count frequency of a character in a string using for loop.
