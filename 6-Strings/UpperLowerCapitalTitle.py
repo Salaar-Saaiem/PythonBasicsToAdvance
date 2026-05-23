@@ -7,6 +7,7 @@ we can use,
 .title() -> it capitalize first charater of each word in the string 
 functions
 '''
+
 # Either we can use it during printing
 name='saAiem saLaar'
 print(name.lower())
