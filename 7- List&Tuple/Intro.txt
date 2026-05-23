@@ -1,0 +1,9 @@
+List is used where we are dealing with multiple data types in one profile,
+suppose we have to make a student profile, now it will have name, age, height, blood group etc 
+which will be in diff diff data type, now it becomes harder to define individual variables to each students like
+student one -> name1=str, age1=int...
+student two -> name2=str, age2=int...
+
+so to eliminate this limitation LIST comes to picture
+in this we can use multiple datatypes in one list,(just like array, but there used to be one datatype)
+
