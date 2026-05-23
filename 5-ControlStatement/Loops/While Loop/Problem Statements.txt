@@ -1,0 +1,39 @@
+1. Write a program to print numbers from 1 to 10 using while loop.
+
+2. Write a program to print even numbers from 1 to 20 using while loop.
+
+3. Write a program to print odd numbers from 1 to 20 using while loop.
+
+4. Write a program to find the sum of first 10 natural numbers using while loop.
+
+5. Write a program to display multiplication table of a number using while loop.
+
+6. Write a program to count down from 10 to 1 using while loop.
+
+7. Write a program to reverse a number using while loop.
+
+8. Write a program to count the number of digits in a number using while loop.
+
+9. Write a program to calculate factorial of a number using while loop.
+
+10. Write a program to keep asking for password until correct password is entered.
+
+11. Write a program to print Fibonacci series using while loop.
+
+12. Write a program to check whether a number is palindrome using while loop.
+
+13. Write a program to continuously accept numbers until user enters 0.
+
+14. Write a program to calculate sum of digits of a number using while loop.
+
+15. Write a program to print squares of numbers from 1 to 10 using while loop.
+
+16. Write a program to find greatest among numbers entered by user until -1 is entered.
+
+17. Write a program to simulate ATM PIN checking system using while loop.
+
+18. Write a program to print alphabets from A to Z using while loop.
+
+19. Write a program to display all numbers divisible by 5 between 1 and 100.
+
+20. Write a program to print star pattern using nested while loops.
