@@ -1,7 +1,7 @@
 '''
 if u want to check whether the word is in the dictionary or not
 function: 
-in -> finds the word in boolean (true/false)
+'' in str_name -> finds the word in boolean (true/false)
 not in -> reverses the answer
 '''
 
