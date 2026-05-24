@@ -1,5 +1,6 @@
 '''
-.append() function is used to add character OR number into the list, it adds it in the end by default
+.append() function is used to add character OR number into the list, it adds it in the end by default 
+.append() method does not work with tuples because tuples are immutable (cannot be changed after they are created).
 '''
 
 list=['saaiem', 'salaar', 'sam']

@@ -1,7 +1,8 @@
 '''
 in .append() u can only add element at the end of the list, but using 
 .insert(indexNO.'newWrod')
-u can add element at any position
+u can add element at any position in the list
+
 '''
 
 name=['Shaikh', 'Salaar']

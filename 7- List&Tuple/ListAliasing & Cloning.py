@@ -1,6 +1,7 @@
 '''
 Suppose we have a list and 2nd list is pointing at list 1, 
 changes in list one will reflect changes in list 2 as well
+to avoid this we use cloning of list using .copy() method
 '''
 list1=[1,2,3,4,5]
 list2=list1

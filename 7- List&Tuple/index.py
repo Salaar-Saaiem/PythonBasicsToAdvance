@@ -1,6 +1,8 @@
 '''
 .index('data') is used to know the index number of given data in the list
 u have to creat a variable for it, as u can see below, ive created indexed variable to save the index number
+if we want to directly print the index number without creating variable, we can do that as well, just use it in print function directly
+.index() method also works for tuple, it will give the index number of the specified data in the tuple
 '''
 
 name=['saaiem','salaar','sam']
