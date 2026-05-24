@@ -7,3 +7,7 @@ student two -> name2=str, age2=int...
 so to eliminate this limitation LIST comes to picture
 in this we can use multiple datatypes in one list,(just like array, but there used to be one datatype)
 
+
+tuple is immutable, 
+no modification methods/operations can be done on tuple 
+only, search index functions

@@ -5,7 +5,7 @@ we can use,
 .lower() -> Convert all charater of the string into lower case
 .capitalize() -> it capitalize first charater of the string only
 .title() -> it capitalize first charater of each word in the string 
-functions
+functions.
 '''
 
 # Either we can use it during printing
