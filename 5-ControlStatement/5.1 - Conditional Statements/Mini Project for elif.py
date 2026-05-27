@@ -4,7 +4,7 @@ PROBLEM STATEMENT: Take two numbers form the users and do the calculation that u
 
 num1=int(input('Enter First Number:'))
 num2=int(input('Enter Second Number'))
-choice=input('What would u like to do +,-,*,/: ')
+choice=input('What operation would u like to perform \'+,-,*,/\': ')
 
 if choice == '+' or choice == 'addition' or choice == 'Addition' or choice == 'add' or choice == 'Add':
     print(f"Addition of two values are:", num1+num2)

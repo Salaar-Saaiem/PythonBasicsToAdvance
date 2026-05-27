@@ -7,3 +7,5 @@ it is used using
 fruits = ['mango', 'apple', 'Grapes']
 print( 'grapes' in fruits)
 print( 'Grapes' in fruits)
+print('Grapes' not in fruits)
+print ("Banana" not in fruits)
