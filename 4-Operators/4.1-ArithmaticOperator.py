@@ -5,9 +5,9 @@ it has,
     substraction -
     multiplication *
     division /
-    floor division //     #flooor division removes the decimal nuber
-    Modulus %     #modulus will return remaider
-    Exponent **  #used to calculate the power of value such as, we want to find 2^100 so we are not gonna write 2*2*2*2....., we will use 2**100
+    floor division //     #floor division removes the decimal nuber
+    Modulus %             #modulus will return remaider
+    Exponent **           #used to calculate the power of value such as, we want to find 2^100 so we are not gonna write 2*2*2*2....., we will use 2**100
 '''
 
 a=20
