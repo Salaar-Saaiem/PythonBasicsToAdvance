@@ -1,4 +1,6 @@
 # Python Basics to Advance
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Salaar-Saaiem.PythonBasicsToAdvance)
+<br>
 This repository was initially created to improve my coding skills and strengthen my logical thinking. Later, I realized that it could also serve as a helpful resource for beginners who are starting their programming journey with Python.
 
 ```text
