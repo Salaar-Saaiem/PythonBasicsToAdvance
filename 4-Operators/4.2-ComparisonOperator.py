@@ -1,5 +1,5 @@
 '''
-Comparision operators are used to caompare two values, 
+Comparision operators are used to compare two values, 
     it will only provide boolean output like true/false, yes/no etc
 '''
 

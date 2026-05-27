@@ -3,7 +3,7 @@ Logical operators are used to compare multiple values at once
     it also return the output in boolean such as true/false,  yes/no
 
 and - All COnditions should be true to return true, otherwise false
-or - Atleast one condition shoukd be true to return true other wise false
+or  - Atleast one condition shoukd be true to return true other wise false
 not - it operates on single value, and it reverses the output, like if output is true, itll reverse it as false
 '''
 
