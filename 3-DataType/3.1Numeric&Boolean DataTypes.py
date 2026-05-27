@@ -15,11 +15,11 @@ age = 21 # Intereger Data Type
 height=185.2 # Float Data Type
 is_disabled= False
 
-print("Name:",name, "\nAge:",age, "Height:", height, "\nBlood Group:", bloodgrp, "\nDisability:", is_disabled)
+print("Name:",name, "\nAge:",age, "Height:", height, "\nDisability:", is_disabled)
 
 
 """
 if you want to know which type of data type, a variable is using, use type() function
 """
-print(type(name), type(age),type(height),  type(bloodgrp))
+print(type(name), type(age),type(height))
 
