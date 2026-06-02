@@ -22,7 +22,7 @@ class BankAccount:
     
     def deposit(self, amount):
         self.balance += amount
-        print(f'\nDeposited - {amount}')
+        print(f'Deposited - {amount}')
 
     def withdraw(self, amount):
         self.balance -+ amount
@@ -30,7 +30,7 @@ class BankAccount:
     
     def check_balance(self):
         print(f'Current Balance - {self.balance}')
-        
+
 
 Saaiem=BankAccount('Saaiem', 500000)
 Saaiem.deposit(50000)
