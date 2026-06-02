@@ -28,13 +28,13 @@ myself('Saaiem Salaar', 22)
 myself(22, 'Saaiem Salaar') #wrong
 
 #Key word argument is when u directly define the values in Function callling, using this eliminates the positional argument disadvantage
-def myself(name, age):
+def myself1(name, age):
     print(f'Hi my Name is {name} and i am {age} years old') 
 
-myself(age=22, name='Saaiem Salaar')
+myself1(age=22, name='Saaiem Salaar')
 
 # default argument is when we assign a default value to the parameter, if we don't pass any value then it will take default value
-def myself(name='john doe', age=22):
+def myself2(name='john doe', age=22):
     print(f'Hi my Name is {name} and i am {age} years old')
-myself() # it will take default value
-myself('Saaiem Salaar', 26) # it will take the value that we have passed in function calling, it will not take default value because we have passed the value in function calling
+myself2() # it will take default value
+myself2('Saaiem Salaar', 26) # it will take the value that we have passed in function calling, it will not take default value because we have passed the value in function calling
