@@ -1,0 +1,229 @@
+OBJECT-ORIENTED PROGRAMMING (OOP) IN PYTHON
+===========================================
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code using classes and objects. It helps make programs more modular, reusable, and easier to maintain.
+
+--------------------------------------------------
+
+1. CLASS
+---------
+
+A class is a blueprint for creating objects.
+
+Example:
+
+class Student:
+    pass
+
+Here, Student is a class.
+
+--------------------------------------------------
+
+2. OBJECT
+----------
+
+An object is an instance of a class.
+
+Example:
+
+class Student:
+    pass
+
+s1 = Student()
+s2 = Student()
+
+Here:
+- s1 and s2 are objects of the Student class.
+
+--------------------------------------------------
+
+3. CONSTRUCTOR (__init__)
+--------------------------
+
+A constructor initializes object attributes when an object is created.
+
+Example:
+
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Sam")
+print(s1.name)
+
+Output:
+Sam
+
+--------------------------------------------------
+
+4. ENCAPSULATION
+-----------------
+
+Encapsulation means bundling data and methods into a single unit and restricting direct access to data.
+
+Example:
+
+class BankAccount:
+
+    def __init__(self):
+        self.__balance = 1000
+
+    def show_balance(self):
+        return self.__balance
+
+acc = BankAccount()
+print(acc.show_balance())
+
+Output:
+1000
+
+Note:
+__balance is private and cannot be accessed directly.
+
+--------------------------------------------------
+
+5. INHERITANCE
+---------------
+
+Inheritance allows one class to acquire properties and methods of another class.
+
+Example:
+
+class Animal:
+
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.speak()
+
+Output:
+Animal speaks
+
+Note:
+Dog inherits from Animal.
+
+--------------------------------------------------
+
+6. POLYMORPHISM
+----------------
+
+Polymorphism means "many forms". The same method can behave differently for different objects.
+
+Example:
+
+class Dog:
+    def sound(self):
+        print("Bark")
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+for animal in [Dog(), Cat()]:
+    animal.sound()
+
+Output:
+Bark
+Meow
+
+--------------------------------------------------
+
+7. METHOD OVERRIDING
+---------------------
+
+Method overriding occurs when a child class provides its own implementation of a parent class method.
+
+Example:
+
+class Animal:
+
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+
+    def speak(self):
+        print("Dog barks")
+
+d = Dog()
+d.speak()
+
+Output:
+Dog barks
+
+--------------------------------------------------
+
+8. ABSTRACTION
+---------------
+
+Abstraction hides implementation details and shows only essential functionality.
+
+Example:
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vehicle):
+
+    def start(self):
+        print("Car started")
+
+c = Car()
+c.start()
+
+Output:
+Car started
+
+--------------------------------------------------
+
+FOUR PILLARS OF OOP
+-------------------
+
+1. Encapsulation
+   - Hides data and protects it from direct access.
+
+2. Inheritance
+   - Allows code reuse by deriving classes.
+
+3. Polymorphism
+   - One interface, many implementations.
+
+4. Abstraction
+   - Hides unnecessary implementation details.
+
+--------------------------------------------------
+
+REAL-LIFE EXAMPLE
+-----------------
+
+class Car:
+
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def display(self):
+        print(self.brand, self.model)
+
+car1 = Car("Toyota", "Camry")
+car1.display()
+
+Output:
+Toyota Camry
+
+--------------------------------------------------
+
+SUMMARY
+-------
+
+Object-Oriented Programming (OOP) is a programming approach that uses classes and objects to organize code. It promotes code reusability, modularity, and maintainability through the concepts of Encapsulation, Inheritance, Polymorphism, and Abstraction.
