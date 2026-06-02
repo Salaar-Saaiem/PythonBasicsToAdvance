@@ -5,8 +5,8 @@
 
 list=['saaiem', 'salaar', 'sam']
 list.append('lucifer')
-
 print(list)
+
 
 num=[1,2,3,4,5]
 num.append(6)
